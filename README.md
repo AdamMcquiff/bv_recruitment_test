@@ -4,7 +4,8 @@ This exercise forms part of our interview process. It's a way for you to show
 your skills as a developer and ability to work with an existing code base.
 
 ## Test
-The test consists of a simple react app that should display the exoplanets 
+
+The test consists of a simple react app that should display the exoplanets
 discovered by TESS in 2022.  
 The data source for this can be found at https://binary-vision.s3.eu-west-2.amazonaws.com/discoveries.json
 
@@ -18,8 +19,8 @@ Planet radius (earth units): `pl_rade`
 
 The data should be sorted by `releasedate`
 
-This can be displayed on the home page below the existing text or on a new page, 
-up to you. Something that fits in line with existing styling, but you have the option 
+This can be displayed on the home page below the existing text or on a new page,
+up to you. Something that fits in line with existing styling, but you have the option
 to make it look better.
 
 ## Running
