@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { format } from "date-fns";
+import { format } from 'date-fns';
 
 import style from './style.module.scss';
 
@@ -18,7 +18,7 @@ const Home = () => {
     const dateA = new Date(a.releasedate);
     const dateB = new Date(b.releasedate);
     return dateB - dateA;
-  }
+  };
 
   return (
     <div className={`container-sm ${style.main}`}>
@@ -58,7 +58,7 @@ const Home = () => {
           {exoplanets.sort(sortByDate).map((exoplanet) => (
             <tr>
               <th>{exoplanet.pl_name}</th>
-              <td>{format(new Date(exoplanet.releasedate), "dd/LL/yyyy")}</td>
+              <td>{format(new Date(exoplanet.releasedate), 'dd/LL/yyyy')}</td>
               <td>{exoplanet.pl_rade}</td>
               <td>{exoplanet.discoverymethod}</td>
             </tr>
